@@ -32,10 +32,11 @@ class Library:
     def list_available_books(self):
         for book in self.books:
             if book.is_available:   
-                print(str(book))
+                print(book)
             
     def search_book(self, title=None, author=None):
         return [str(book) for book in self.books if book.title == title or book.author == author]
+
 
 
 

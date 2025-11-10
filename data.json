@@ -1,0 +1,40 @@
+{
+  "books":
+  [
+    {
+      "ISBN": 123,
+      "author": "Jane Austen",
+      "title": "Pride and Prejudice"
+    },
+    {
+       "ISBN": 111,
+      "author": "Oliver Twist",
+      "title": "Charles Dickens"
+    },
+    {
+      "ISBN": 222,
+      "author": "Great Expectations",
+      "title": "Emily Bronte"
+    }
+
+  ],
+  "users":
+  [
+      {
+        "name":"refael",
+        "id":333
+      }
+      ,{
+        "name":"daniel",
+         "id":444
+       }
+      ,{
+          "name":"gad",
+         "id":555
+       }
+    ]
+}
+
+
+
+
