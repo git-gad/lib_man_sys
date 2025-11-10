@@ -7,3 +7,11 @@ class User:
         print(f"the name is:{self.name}\n His ID card is:{self.id}\n borrowed_books is:{self.borrowed_books}")
 
 
+
+
+
+
+
+
+
+
