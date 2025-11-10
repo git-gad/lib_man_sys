@@ -1,0 +1,15 @@
+{
+    "books":
+    [ 
+        {"title": "voina i mir", "author": "tolstoi", "ISBN": 321},
+        {"title": "prestuplenie i nakazanie", "author": "dostoevskiy", "ISBN": 456},
+        {"title": "evgeniy onegin", "author": "pushkin", "ISBN": 789}
+    ],
+    "users": 
+    [
+        {"name": "gad", "id": 135},
+        {"name": "dan", "id": 246},
+        {"name": "san", "id": 357}
+    ]
+}
+

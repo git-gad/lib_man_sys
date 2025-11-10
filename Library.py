@@ -6,13 +6,13 @@ class Library:
         self.books = []
         self.users = []
         
-    def add_book(self,book:Book):
+    def add_book(self, book:Book):
         self.books.append(book)
 
-    def add_user(self,user:User):
+    def add_user(self, user:User):
         self.users.append(user)
 
-    def borrow_book(self, user_id, book_isbn):
+    def borrow_book(self, user_id: int, book_isbn: int):
         for book in self.books:
             if book.ISBN == book_isbn:
                 book.is_available = False
@@ -21,7 +21,7 @@ class Library:
                         user.borrowed_books.append(book)
                         return
         
-    def return_book(self, user_id, book_isbn):
+    def return_book(self, user_id: int, book_isbn: int):
         for book in self.books:
             if book.ISBN == book_isbn:
                 for user in self.users:
@@ -32,10 +32,10 @@ class Library:
     def list_available_books(self):
         for book in self.books:
             if book.is_available:   
-                print(str(book))
+                print(book)
             
-    def search_book(self, title=None, author=None):
-        return [str(book) for book in self.books if book.title == title or book.author == author]
+    def search_book(self, title: str = None, author: str = None):
+        return [str(book) for book in self.books if title in book.title or author in book.author]
 
 
 
