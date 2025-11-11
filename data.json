@@ -1,40 +1,20 @@
 {
-  "books":
-  [
-    {
-      "ISBN": 123,
-      "author": "Jane Austen",
-      "title": "Pride and Prejudice"
-    },
-    {
-       "ISBN": 111,
-      "author": "Oliver Twist",
-      "title": "Charles Dickens"
-    },
-    {
-      "ISBN": 222,
-      "author": "Great Expectations",
-      "title": "Emily Bronte"
-    }
-
-  ],
-  "users":
-  [
-      {
-        "name":"refael",
-        "id":333
-      }
-      ,{
-        "name":"daniel",
-         "id":444
-       }
-      ,{
-          "name":"gad",
-         "id":555
-       }
+    "users": [
+        {
+            "name": "rrrr",
+            "id": "123456"
+        }
+    ],
+    "books": [
+        {
+            "ISBN": "111",
+            "author": "refael",
+            "title": "daniel"
+        },
+        {
+            "ISBN": "55555",
+            "author": "hvhvhv",
+            "title": "hvhhv"
+        }
     ]
 }
-
-
-
-

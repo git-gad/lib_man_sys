@@ -5,11 +5,11 @@ class Library:
     def __init__(self):
         self.books = []
         self.users = []
-        
-    def add_book(self,book:Book):
+
+    def add_book(self, book: Book):
         self.books.append(book)
 
-    def add_user(self,user:User):
+    def add_user(self, user: User):
         self.users.append(user)
 
     def borrow_book(self, user_id, book_isbn):
@@ -36,10 +36,6 @@ class Library:
             
     def search_book(self, title=None, author=None):
         return [str(book) for book in self.books if book.title == title or book.author == author]
-
-
-
-
 
 
 
